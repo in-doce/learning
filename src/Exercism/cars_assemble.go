@@ -1,4 +1,6 @@
-package cars
+// Package exercism permite usar las funciones creadas para los ejercicios de la
+// página exercism.
+package exercism
 
 // CalculateWorkingCarsPerHour calculates how many working cars are
 // produced by the assembly line every hour.
