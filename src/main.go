@@ -6,12 +6,7 @@ import (
 )
 
 func main() {
-	message := `
-**************************
-*    BUY NOW, SAVE 10%   *
-**************************
-`
-	fmt.Println(exercism.WelcomeMessage("Sebastian"))
-	fmt.Println(exercism.AddBorder("Welcome!", 10))
-	fmt.Println(exercism.CleanupMessage(message))
+	fmt.Println(exercism.Welcome("Sebas"))
+	fmt.Println(exercism.HappyBirthday("Frank", 58))
+	fmt.Println(exercism.AssignTable("Christiane", 27, "Frank", "on the left", 23.7834298))
 }
