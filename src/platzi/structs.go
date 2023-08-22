@@ -1,6 +1,6 @@
-// Package structs permite usar las funciones de strucs
+// Package platzi permite usar las funciones de strucs
 // que aprendí en platzi.
-package structs
+package platzi
 
 import "fmt"
 

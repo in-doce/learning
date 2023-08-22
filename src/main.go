@@ -2,11 +2,14 @@ package main
 
 import (
 	"fmt"
-	exercism "learning/src/Exercism"
+	"learning/src/platzi"
+	"sync"
 )
 
 func main() {
-	fmt.Println(exercism.Welcome("Sebas"))
-	fmt.Println(exercism.HappyBirthday("Frank", 58))
-	fmt.Println(exercism.AssignTable("Christiane", 27, "Frank", "on the left", 23.7834298))
+	var wg sync.WaitGroup
+	fmt.Println("Hello")
+	wg.Add(1)
+	go platzi.Say("Mundo", &wg)
+	wg.Wait()
 }
