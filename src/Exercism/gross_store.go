@@ -29,8 +29,9 @@ func NewBill() (bill map[string]int) {
 func AddItem(bill, units map[string]int, item, unit string) bool {
 	if !exists(units, unit) {
 		return false
+	} else {
+		bill[item] += units[unit]
 	}
-	bill[item] += units[unit]
 	return true
 }
 

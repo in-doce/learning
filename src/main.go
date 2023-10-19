@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	exercism "learning/src/Exercism"
-)
-
 // func workingWithWait() {
 // 	var wg sync.WaitGroup
 // 	fmt.Println("Hello")
@@ -14,5 +9,5 @@ import (
 // }
 
 func main() {
-	fmt.Println(exercism.HasPassed("9/19/1994 12:15:00"))
+
 }
